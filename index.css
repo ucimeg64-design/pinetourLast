@@ -359,7 +359,7 @@ body {
 .TextBox1 {
   width: 513px;
   height: 112px;
-  border-radius: 50px;
+  border-radius: 120px;
   background-color: #eee9d9;
 }
 
@@ -370,7 +370,7 @@ body {
 .TextBox2 {
   width: 513px;
   height: 112px;
-  border-radius: 40px;
+  border-radius: 120px;
   background-color: #8bb8c1cc;
 }
 .TextBox2:hover {
@@ -379,7 +379,7 @@ body {
 .TextBox3 {
   width: 513px;
   height: 112px;
-  border-radius: 40px;
+  border-radius: 120px;
   background-color: #aad8d7cc;
 }
 .TextBox3:hover {
@@ -388,7 +388,7 @@ body {
 .TextBox4 {
   width: 513px;
   height: 112px;
-  border-radius: 40px;
+  border-radius: 120px;
   background-color: #8bc0bdcc;
 }
 .TextBox4:hover {
@@ -397,7 +397,7 @@ body {
 .TextBox5 {
   width: 513px;
   height: 112px;
-  border-radius: 40px;
+  border-radius: 120px;
   background-color: #97cce0cc;
 }
 .TextBox5:hover {
@@ -414,8 +414,9 @@ body {
   width: 217px;
   height: 48px;
   margin-left: 30px;
+  gap:4px;
 }
-.ThirdBox {
+.ThirdBox1{
   width: 217px;
   height: 29px;
   text-align: center;
@@ -423,6 +424,59 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-style: Medium;
+    color: #09090B;
+
+
+}
+.ThirdBox2{
+  width: 217px;
+  height: 29px;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+    color: #09090B;
+    white-space: nowrap;
+
+}
+.ThirdBox3{
+  width: 217px;
+  height: 29px;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+    color: #09090B;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.ThirdBox4{
+  width: 217px;
+  height: 29px;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+    color: #09090B;
+    white-space: nowrap;
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+.ThirdBox5{
+  width: 217px;
+  height: 29px;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+  color: #09090B;
 }
 .RightContainer {
   width: 217px;
@@ -463,9 +517,10 @@ body {
   justify-content: center;
   align-items: center;
 
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   margin-left: 184px;
+  font-family: "GIP", sans-serif;
 }
 .Price {
   width: 1440px;
