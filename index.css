@@ -1,0 +1,722 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  margin-inline: auto;
+}
+#hero {
+  width: 1440px;
+  height: 773px;
+  background-image: url(images/heroimg.png);
+  margin-inline: auto;
+}
+
+.header {
+  width: 1440px;
+  height: 100px;
+  display: flex;
+  padding-block: 30px;
+}
+.logoContainer {
+  width: 100px;
+  height: 34px;
+  margin-left: 118px;
+}
+.navContainer {
+  width: 392px;
+  height: 22px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-inline: 334px;
+}
+.navTextStyle {
+  font-size: 18px;
+  font-weight: 600;
+  font-style: "Semi Bold", sans-serif;
+  gap: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userContainer {
+  font-size: 20px;
+  font-weight: 20px;
+}
+.languageChanger {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  text-align: center;
+  margin-right: 118px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* --------------- */
+
+.heroTextContainer {
+  width: 618px;
+  height: 394px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+.pureText {
+  width: 618px;
+  height: 80px;
+  font-size: 80px;
+  font-family: "Bebas Neue" sans-serif;
+  font-weight: 400;
+  color: #e8edf2b8;
+}
+.Pure {
+  width: 618px;
+  height: 80px;
+  margin: 0px;
+}
+.Awaits {
+  width: 618px;
+  height: 250px;
+  margin: 0px;
+}
+.awaitsText {
+  width: 618px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+.awaitsTextStyle {
+  font-size: 250px;
+  font-family: "Bebas Neue" sans-serif;
+  font-weight: 400;
+  color: #fdfdfefa;
+}
+
+.Year {
+  width: 144px;
+  height: 64px;
+  margin: 0px;
+}
+.purext {
+  width: 618px;
+  height: 250px;
+  font-size: 200px;
+  font-family: "Bebas Neue" sans-serif;
+  font-weight: 400;
+  color: #fdfdfefa;
+  text-align: center;
+}
+.yearText {
+  width: 144px;
+  height: 64px;
+  font-size: 64px;
+  font-family: "Bebas Neue" sans-serif;
+  font-weight: 400;
+  color: #ffffffcc;
+}
+.locationContainer {
+  width: 1440px;
+  height: 500px;
+  background-image: url(images/locimage.png);
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.card1 {
+  position: relative;
+  width: 275px;
+  height: 370px;
+  overflow: hidden;
+  border-radius: 40px;
+  box-shadow:
+    8px 8px #29728b40,
+    -8px -8px #1f72aa75;
+  background-image: url(images/1.png);
+  background-size: cover;
+  font-size: 37px;
+  font-weight: 400;
+  font-style: Semi Bold;
+  font-family: "Bebas Neue", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fdfdfecc;
+}
+.card2 {
+  position: relative;
+  width: 275px;
+  height: 370px;
+  overflow: hidden;
+  border-radius: 40px;
+  box-shadow:
+    8px 8px #29728b40,
+    -8px -8px #1f72aa75;
+  background-image: url(images/2.png);
+  background-size: cover;
+  font-size: 34px;
+  font-weight: 400;
+  font-style: Semi Bold;
+  font-family: "Bebas Neue", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fdfdfecc;
+}
+.card3 {
+  position: relative;
+  width: 275px;
+  height: 370px;
+  overflow: hidden;
+  border-radius: 40px;
+  box-shadow:
+    8px 8px #29728b40,
+    -8px -8px #1f72aa75;
+  background-image: url(images/3.png);
+  background-size: cover;
+  font-size: 37px;
+  font-weight: 400;
+  font-style: Semi Bold;
+  font-family: "Bebas Neue", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fdfdfecc;
+}
+.card4 {
+  position: relative;
+  width: 275px;
+  height: 370px;
+  overflow: hidden;
+  border-radius: 40px;
+  box-shadow:
+    8px 8px #29728b40,
+    -8px -8px #1f72aa75;
+  background-image: url(images/4.png);
+  background-size: cover;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 37px;
+  font-weight: 400;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: Semi Bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fdfdfecc;
+}
+
+.cardTextStyle {
+  width: 232px;
+  height: 88px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 37px;
+  font-weight: 400;
+  font-style: Semi Bold;
+  text-align: center;
+}
+.cardOverlay:hover {
+  opacity: 0.4;
+}
+
+.cardOverlay {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  opacity: 0;
+}
+
+.Roadmap {
+  width: 1440px;
+  height: 902px;
+  background-image: url(images/Roadmap.png);
+  background-size: cover;
+  margin-inline: auto;
+  text-shadow: #000000a6;
+}
+.DestinationContainer {
+  width: 1440px;
+  height: 204px;
+  background-image: url(images/Roadmap.png);
+}
+.DestinationTextBox {
+  width: 1440px;
+  height: 85px;
+  text-align: center;
+}
+.DestinationTextStyle1 {
+  font-family: "Inter", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  font-style: Semi Bold;
+}
+.DestinationTextStyle2 {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: Medium;
+}
+.Frame {
+  width: 1200px;
+  height: 640px;
+  display: flex;
+  gap: 40px;
+  margin-top: 69px;
+  margin-inline: auto;
+}
+.LeftContainer {
+  width: 513px;
+  height: 640px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.rightCon {
+  width: 647px;
+  height: 640px;
+  margin-left: 40px;
+  flex-direction: column;
+  position: relative;
+}
+
+.hoverimage1 {
+  width: 245px;
+  height: 245px;
+  position: absolute;
+  top: 65px;
+  left: 359px;
+  display: none;
+}
+
+.Frame:has(.TextBox1:hover) .hoverimage1 {
+  display: block;
+}
+
+.hoverimage2 {
+  width: 245px;
+  height: 245px;
+  position: absolute;
+  top: -46px;
+  left: 163px;
+  display: none;
+}
+.Frame:has(.TextBox2:hover) .hoverimage2 {
+  display: block;
+}
+.hoverimage3 {
+  width: 245px;
+  height: 245px;
+  position: absolute;
+  top: 82px;
+  left: 30px;
+  display: none;
+}
+.Frame:has(.TextBox3:hover) .hoverimage3 {
+  display: block;
+}
+.hoverimage4 {
+  width: 245px;
+  height: 245px;
+  position: absolute;
+  top: -84px;
+  left: -21px;
+  display: none;
+}
+.Frame:has(.TextBox4:hover) .hoverimage4 {
+  display: block;
+}
+.hoverimage5 {
+  width: 245px;
+  height: 245px;
+  position: absolute;
+  top: -80px;
+  left: 146px;
+  display: none;
+}
+.Frame:has(.TextBox5:hover) .hoverimage5 {
+  display: block;
+}
+
+.TextBox1 {
+  width: 513px;
+  height: 112px;
+  border-radius: 50px;
+  background-color: #eee9d9;
+}
+
+.TextBox1:hover {
+  border: 3px solid white;
+}
+
+.TextBox2 {
+  width: 513px;
+  height: 112px;
+  border-radius: 40px;
+  background-color: #8bb8c1cc;
+}
+.TextBox2:hover {
+  border: 3px solid white;
+}
+.TextBox3 {
+  width: 513px;
+  height: 112px;
+  border-radius: 40px;
+  background-color: #aad8d7cc;
+}
+.TextBox3:hover {
+  border: 3px solid white;
+}
+.TextBox4 {
+  width: 513px;
+  height: 112px;
+  border-radius: 40px;
+  background-color: #8bc0bdcc;
+}
+.TextBox4:hover {
+  border: 3px solid white;
+}
+.TextBox5 {
+  width: 513px;
+  height: 112px;
+  border-radius: 40px;
+  background-color: #97cce0cc;
+}
+.TextBox5:hover {
+  border: 3px solid white;
+}
+.Firstbox {
+  width: 483px;
+  height: 48px;
+  margin-inline: auto;
+  margin-block: 32px;
+  display: flex;
+}
+.SecondBox {
+  width: 217px;
+  height: 48px;
+  margin-left: 30px;
+}
+.ThirdBox {
+  width: 217px;
+  height: 29px;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+}
+.RightContainer {
+  width: 217px;
+  height: 29px;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.fourdBox {
+  width: 94px;
+  height: 15px;
+}
+.locationDetails {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* icon ба text хооронд зай */
+}
+
+.locationIcon {
+  width: 14px;
+  height: 14px;
+}
+
+.locationText {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+}
+
+.dayCircle {
+  width: 52px;
+  height: 52px;
+  background-color: white;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 184px;
+}
+.Price {
+  width: 1440px;
+  height: 1120px;
+  background-image: url(images/PriceFooter.png);
+}
+.PriceTextBox {
+  width: 1440px;
+  height: 85px;
+  background-image: url(images/PriceFooter.png);
+  text-align: center;
+}
+.PriceTextStyle {
+  width: 1440px;
+  height: 51px;
+  font-size: 42px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: Semi Bold;
+}
+.PackageTextStyle {
+  width: 1440px;
+  height: 24px;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+}
+.CardContainer {
+  width: 1200px;
+  height: 527px;
+  display: flex;
+  justify-content: space-around;
+  margin-inline: auto;
+  margin-top: 79px;
+}
+.PackageCard {
+  width: 384px;
+  height: 527px;
+  border-radius: 30px;
+  background-color: white;
+}
+.BudgetPackage {
+  width: 384px;
+  height: 92px;
+  border: 1px solid red;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.IconButton {
+  width: 36px;
+  height: 36px;
+  border-radius: 50px;
+  background-image: url(images/IconButton.png);
+  background-size: cover;
+  background-position: center;
+  margin-left: 24px;
+}
+.BudgetTextBox {
+  width: 158px;
+  height: 22px;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+}
+.Content {
+  width: 384px;
+  height: 435px;
+}
+.Details {
+  width: 336px;
+  height: 290px;
+  margin-inline: auto;
+  flex-direction: column;
+}
+
+.PriceSection {
+  width: 336px;
+  height: 78px;
+}
+.ParentComponent {
+  width: 336px;
+  height: 49px;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-style: Semi Bold;
+  display: flex;
+}
+.parentContainer {
+  width: 336px;
+  height: 27px;
+  display: flex;
+}
+.Popularbox {
+  width: 91px;
+  height: 27px;
+  border-radius: 40px;
+  background-color: #6972b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SubtitleContainer {
+  width: 336px;
+  height: 19px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+}
+.includesCon {
+  width: 336px;
+  height: 180px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 16px;
+}
+.includesbox {
+  width: 336px;
+  height: 22px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20;
+}
+.check {
+  width: 20px;
+  height: 20px;
+  background-image: url(images/check.png);
+  background-size: cover;
+  margin: 0px;
+}
+.checkText {
+  width: 296px;
+  height: 17px;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+  margin: 0px;
+  color: #3f4145;
+}
+.IncludesText {
+  width: 296px;
+  height: 22px;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+  margin: 0px;
+  color: #3f4145;
+  margin-inline: 40px;
+}
+.SelectPackage {
+  width: 336px;
+  height: 48px;
+  border-radius: 40px;
+  margin-inline: 24px;
+  margin-top: 37px;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #a4d1e2;
+}
+.SelectPackage:hover {
+  background-color: #000000;
+}
+
+.SelectPackage:hover .SelectTextStyle {
+  color: white;
+}
+.SelectTextStyle {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: Medium;
+  margin: 0px;
+  color: #000000;
+}
+
+.FooterContainer {
+  width: 1440px;
+  height: 204px;
+  /* padding-top: 185px; */
+  background-color: #9fc6de;
+}
+.FooterBox {
+  width: 1200px;
+  height: 44px;
+  display: flex;
+  margin-inline: auto;
+  /* padding-top: 80px; */
+}
+.SocialMediaLinks {
+  width: 358px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+}
+.facebookBox {
+  width: 167px;
+  height: 44px;
+  background-color: white;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.FacebookLogo {
+  width: 24px;
+  height: 24px;
+  background-image: url(images/facebook.svg);
+  margin-top: 11px;
+}
+.FacebooText {
+  width: 93px;
+  height: 22px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  color: #6972b5;
+  margin-top: 11px;
+}
+.InstagramLogo {
+  width: 24px;
+  height: 24px;
+  background-image: url(images/Instagram\ Icon.svg);
+  margin-top: 11px;
+}
+.Pinelogo {
+  width: 101px;
+  height: 35px;
+  margin-left: 741px;
+  background-image: url(images/pineconeLogo.png);
+}
+.SubtleContainer {
+  height: 19px;
+}
+.PopularBox {
+  height: 27px;
+  border-radius: 40px;
+  background-color: #6972b5;
+}
+.subtle {
+  height: 27px;
+  border: #000000;
+  display: flex;
+  justify-content: space-between;
+}
