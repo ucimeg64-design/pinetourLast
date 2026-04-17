@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #d8e4e9;
+}
+
 .container {
   width: 1440px;
   margin-inline: auto;
@@ -22,6 +26,7 @@
   height: 100px;
   display: flex;
   padding-block: 30px;
+  align-items: center;
 }
 .logoContainer {
   width: 100px;
@@ -41,7 +46,7 @@
 .navTextStyle {
   font-size: 18px;
   font-weight: 600;
-  font-style: "Semi Bold", sans-serif;
+  font-family: "Inter", sans-serif;
   gap: 24px;
   display: flex;
   justify-content: center;
@@ -61,6 +66,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Inter", sans-serif;
 }
 /* --------------- */
 
@@ -74,14 +80,16 @@
   flex-direction: column;
   text-align: center;
   gap: 10px;
+  margin-top: 69px;
 }
 .pureText {
   width: 618px;
   height: 80px;
   font-size: 80px;
-  font-family: "Bebas Neue" sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   color: #e8edf2b8;
+  text-align: center;
 }
 .Pure {
   width: 618px;
@@ -101,7 +109,7 @@
 }
 .awaitsTextStyle {
   font-size: 250px;
-  font-family: "Bebas Neue" sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   color: #fdfdfefa;
 }
@@ -111,20 +119,12 @@
   height: 64px;
   margin: 0px;
 }
-.purext {
-  width: 618px;
-  height: 250px;
-  font-size: 200px;
-  font-family: "Bebas Neue" sans-serif;
-  font-weight: 400;
-  color: #fdfdfefa;
-  text-align: center;
-}
+
 .yearText {
   width: 144px;
   height: 64px;
   font-size: 64px;
-  font-family: "Bebas Neue" sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   color: #ffffffcc;
 }
@@ -244,20 +244,22 @@
 .Roadmap {
   width: 1440px;
   height: 902px;
-  background-image: url(images/Roadmap.png);
+  background-image: url(images/Roadmap\ image.png);
   background-size: cover;
   margin-inline: auto;
   text-shadow: #000000a6;
+  margin-bottom: 120px;
 }
 .DestinationContainer {
   width: 1440px;
   height: 204px;
-  background-image: url(images/Roadmap.png);
 }
 .DestinationTextBox {
   width: 1440px;
   height: 85px;
   text-align: center;
+  padding-top: 120px;
+  gap: 10px;
 }
 .DestinationTextStyle1 {
   font-family: "Inter", sans-serif;
@@ -270,6 +272,7 @@
   font-size: 20px;
   font-weight: 500;
   font-style: Medium;
+  color: #18181bb2;
 }
 .Frame {
   width: 1200px;
@@ -467,13 +470,15 @@
 .Price {
   width: 1440px;
   height: 1120px;
-  background-image: url(images/PriceFooter.png);
+  background-image: url(images/Price&Footer\ image\ \(1\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .PriceTextBox {
   width: 1440px;
   height: 85px;
-  background-image: url(images/PriceFooter.png);
   text-align: center;
+  padding-top: 40px;
 }
 .PriceTextStyle {
   width: 1440px;
@@ -490,6 +495,7 @@
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-style: Medium;
+  color: #18181bb2;
 }
 .CardContainer {
   width: 1200px;
@@ -508,7 +514,6 @@
 .BudgetPackage {
   width: 384px;
   height: 92px;
-  border: 1px solid red;
   display: flex;
   gap: 16px;
   align-items: center;
@@ -539,11 +544,16 @@
   height: 290px;
   margin-inline: auto;
   flex-direction: column;
+  display: flex;
+  gap: 32px;
 }
 
 .PriceSection {
   width: 336px;
   height: 78px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .ParentComponent {
   width: 336px;
@@ -567,6 +577,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color:#FAFBFC;
+  font-family:"Inter",sans-serif;
+  padding-inline:16px ;
+  font-weight: 500;
+  
 }
 
 .SubtitleContainer {
@@ -576,6 +591,7 @@
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-style: Medium;
+  color: #919191;
 }
 .includesCon {
   width: 336px;
@@ -588,7 +604,6 @@
 }
 .includesbox {
   width: 336px;
-  height: 22px;
   display: flex;
   justify-content: space-between;
   gap: 20;
@@ -602,13 +617,14 @@
 }
 .checkText {
   width: 296px;
-  height: 17px;
+  /* height: 17px; */
   font-size: 14px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-style: Medium;
   margin: 0px;
   color: #3f4145;
+  white-space: normal;
 }
 .IncludesText {
   width: 296px;
@@ -633,6 +649,7 @@
   align-items: center;
   text-align: center;
   background-color: #a4d1e2;
+  border-color: #a4d1e2;
 }
 .SelectPackage:hover {
   background-color: #000000;
